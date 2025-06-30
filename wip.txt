@@ -53,3 +53,6 @@ val keyItem1 = findViewById<Button>(R.id.keyItem1)
 
         val keyItem12 = findViewById<Button>(R.id.keyItem12) 
         keyItem12.setOnClickListener { showPopup("Losses Pit","A mysterious area within the reserve, Losses Pit has an air of intrigue surrounding it. Its purpose remains an enigma, inviting visitors to ponder its hidden secrets and explore the natural formations that make this site unique.") 
+
+        val keyItem13 = findViewById<Button>(R.id.keyItem13) 
+        keyItem13.setOnClickListener { showPopup("Bronze Age Barrow","A mound from the bronze age")
